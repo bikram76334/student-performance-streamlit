@@ -55,19 +55,19 @@ pip install -r requirements.txt
  Run the App
 
 streamlit run app.py
-
+---
 5.If you want to retrain the model:
 
 python train_model.py
-
+---
 
 6. Usage
 Open the app in browser
-
+---
 7.Enter student details
 
 Click Predict Pass/Fail
-
+---
 8.Download the report
 
 Dashboard
@@ -78,13 +78,13 @@ Pass vs Fail chart
 Study Time vs Pass Rate
 
 Absence vs Pass Rate
-
+---
 9. Author
 Bikram Chapagain
-
+---
 10. License
 This project is for educational purposes.
-
+---
 
 
 
