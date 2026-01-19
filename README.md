@@ -25,8 +25,7 @@ student-performance-streamlit/
 │ └── student-mat-8features.csv
 └── README.md
 
-yaml
-Copy code
+
 
 ---
 
@@ -57,19 +56,19 @@ pip install -r requirements.txt
 
 streamlit run app.py
 
-If you want to retrain the model:
+5.If you want to retrain the model:
 
 python train_model.py
 
 
- Usage
+6. Usage
 Open the app in browser
 
-Enter student details
+7.Enter student details
 
 Click Predict Pass/Fail
 
-Download the report
+8.Download the report
 
 Dashboard
 The app shows:
@@ -80,10 +79,10 @@ Study Time vs Pass Rate
 
 Absence vs Pass Rate
 
- Author
+9. Author
 Bikram Chapagain
 
- License
+10. License
 This project is for educational purposes.
 
 
