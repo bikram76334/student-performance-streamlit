@@ -39,7 +39,7 @@ model = pickle.load(open("models/student_model.pkl", "rb"))
 # LIVE Accuracy
 y_pred = model.predict(X_test)
 acc = accuracy_score(y_test, y_pred)
-st.success(f"📌 Model Accuracy: {acc*100:.2f}%")
+st.success(f" Model Accuracy: {acc*100:.2f}%")
 
 # ---------------- USER INPUT ----------------
 sex = st.selectbox("Sex", ["M", "F"])
@@ -63,9 +63,9 @@ if st.button("Predict Pass/Fail"):
     prediction = model.predict(data)
 
     if prediction[0] == 1:
-        st.success("🎉 Prediction: PASS")
+        st.success(" Prediction: PASS")
     else:
-        st.error("❌ Prediction: FAIL")
+        st.error(" Prediction: FAIL")
 
     report = f"""
     Student Report
@@ -82,7 +82,7 @@ if st.button("Predict Pass/Fail"):
     Result: {"PASS" if prediction[0]==1 else "FAIL"}
     """
 
-    st.download_button("📥 Download Report", report, file_name="student_report.txt")
+    st.download_button(" Download Report", report, file_name="student_report.txt")
 
 # ---------------- DASHBOARD ----------------
 st.subheader("Dashboard Graphs")
